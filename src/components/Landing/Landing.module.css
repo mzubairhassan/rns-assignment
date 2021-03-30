@@ -1,0 +1,42 @@
+.landing_container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+}
+.landing_nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing_nav div {
+    display: block;
+    background-color: rgba(71, 12, 128, 0.637);
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.landing_nav div a {
+    text-align: center;
+   
+    
+}
+
+.landing_nav div:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.landing_Image {
+    background-image: url('../../back-img.jpg');
+    background-size: cover;
+    opacity: 0.8;
+}

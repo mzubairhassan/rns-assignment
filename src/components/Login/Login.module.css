@@ -1,0 +1,47 @@
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.form_container {
+  height: 200px;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid gray;
+  box-shadow: 0px 3px 13px 5px #a5a5a57a;
+}
+.input_container {
+  margin: 10px 0px;
+  position: relative;
+}
+.input_container label{
+  margin: 0px 35px;
+}
+
+.input_container input[type=submit] {
+    background: white;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input_container input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+
+.input_container span {
+    position: absolute;
+    top: 10px;
+    text-decoration: underline;
+    font-size: 8px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+
